@@ -1,10 +1,15 @@
 
 # 📊 Keyword Marketing Optimization Platform
 
-**Author:** Ram Prakash Bollam  
 **Course:** CSP 572 – Data Science Practicum (Spring 2025)  
 **Client:** LabelMaster  
-**Advisor:** Dr. Yong Zheng
+**Advisor:** Dr. Yong Zheng  
+
+**Contributors:**  
+- Ram Prakash Bollam  
+- Bharath Suresh Sanu  
+- Nihal Korukanti  
+- Ayesha Saif  
 
 ---
 
