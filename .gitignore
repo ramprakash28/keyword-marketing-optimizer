@@ -1,0 +1,27 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore model files and scalers
+*.pkl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Jupyter and Streamlit cache
+.ipynb_checkpoints/
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
