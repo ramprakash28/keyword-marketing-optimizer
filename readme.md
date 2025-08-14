@@ -75,67 +75,70 @@ The ROI objective is integrated into a Streamlit application for non-technical m
 
 ### 📁 Project Structure
 
-    STREAMLIT
-    │
-    ├── app
-    │   ├── __init__.py
-    │   ├── app.py
-    │
-    ├── data
-    │   ├── business_labels
-    │   │   ├── all_keywords_with_labels.csv
-    │   │   ├── keywords_Strong_in_both_cut_reduce_paid.csv
-    │   │   ├── keywords_Strong_in_organic,_not_paid_in.csv
-    │   │   ├── keywords_Strong_in_paid,_not_organic_in.csv
-    │   │   ├── keywords_Weak_moderate_-_deprioritize_b.csv
-    │   │   ├── keywords_Weak_near_thresholds_-_small_o.csv
-    │   │   ├── keywords_Weak_very_low_-_drop_or_archiv.csv
-    │   ├── expected output
-    │   │   ├── predictions_for_1.2.csv
-    │   │   ├── predictions_for_1.5.csv
-    │   ├── test_sets
-    │       ├── keywords_test_set_1.csv
-    |       ├── keywords_test_set_2.csv
-    |       ├── keywords_test_set_3.csv
-    |       ├── keywords_test_set_4.csv
-    |       ├── keywords_test_set_5.csv
-    ├── docs
-    │   ├── LM IIT Project PPT.pdf
-    │   ├── Technical_Documentation.pdf
-    │
-    ├── images
-    |   ├── Downloaded_predictions.png
-    |   ├── Feature_Importances_Comparison.png
-    |   ├── High_ROI_Keywords_Excl_Labelmaster.png
-    |   |── Keyword_Count_by_Business_Label.png
-    |   ├── Labelmaster_Revenue_Per_Period.png
-    |   ├── Org_vs_Paid_scores(Distribution).png
-    |   ├── Organic_vs_Paid_Score_Strategy_Map.png
-    |   ├── ROI_Distribution_with_Thresholds.png
-    |   ├── ROI_Trends_Top_Keywords_Periods8to18.png
-    |   |── Streamlit_app_default_page.png
-    |   ├── op_10_Keywords_by_ROI.png
-    |   ├── Top_Revenue_Keyword_Per_Period_Excl_Labelmaster.png
-    |   ├── Uploading_a_file_and_making_predictions.png
-    |   ├── Zero_Revenue_Keywords_Paid_Cost_Top10.png
-    │
-    ├── models
-    │   ├── roi_prediction
-    │   │   ├── first_scaler.pkl
-    │   │   ├── first_xgb_model.pkl
-    │   │   ├── scaler_1_2.pkl
-    │   │   ├── xgb_model_1_2.pkl
-    │
-    ├── notebooks
-    │   ├── business_labels.ipynb
-    │   ├── ROI>=1.2.ipynb
-    │
-    ├── venv
-    │
-    ├── .gitignore
-    ├── README_STRUCTURE.md
-    ├── readme.md
-    ├── requirements.txt
+```text
+STREAMLIT
+│
+├── app
+│   ├── __init__.py
+│   └── app.py
+│
+├── data
+│   ├── business_labels
+│   │   ├── all_keywords_with_labels.csv
+│   │   ├── keywords_Strong_in_both_cut_reduce_paid.csv
+│   │   ├── keywords_Strong_in_organic,_not_paid_in.csv
+│   │   ├── keywords_Strong_in_paid,_not_organic_in.csv
+│   │   ├── keywords_Weak_moderate_-_deprioritize_b.csv
+│   │   ├── keywords_Weak_near_thresholds_-_small_o.csv
+│   │   ├── keywords_Weak_very_low_-_drop_or_archiv.csv
+│   ├── expected output
+│   │   ├── predictions_for_1.2.csv
+│   │   └── predictions_for_1.5.csv
+│   ├── test_sets
+│   │   ├── keywords_test_set_1.csv
+│   │   ├── keywords_test_set_2.csv
+│   │   ├── keywords_test_set_3.csv
+│   │   ├── keywords_test_set_4.csv
+│   │   └── keywords_test_set_5.csv
+│
+├── docs
+│   ├── LM IIT Project PPT.pdf
+│   └── Technical_Documentation.pdf
+│
+├── images
+│   ├── Downloaded_predictions.png
+│   ├── Feature_Importances_Comparison.png
+│   ├── High_ROI_Keywords_Excl_Labelmaster.png
+│   ├── Keyword_Count_by_Business_Label.png
+│   ├── Labelmaster_Revenue_Per_Period.png
+│   ├── Org_vs_Paid_scores(Distribution).png
+│   ├── Organic_vs_Paid_Score_Strategy_Map.png
+│   ├── ROI_Distribution_with_Thresholds.png
+│   ├── ROI_Trends_Top_Keywords_Periods8to18.png
+│   ├── Streamlit_app_default_page.png
+│   ├── op_10_Keywords_by_ROI.png
+│   ├── Top_Revenue_Keyword_Per_Period_Excl_Labelmaster.png
+│   ├── Uploading_a_file_and_making_predictions.png
+│   └── Zero_Revenue_Keywords_Paid_Cost_Top10.png
+│
+├── models
+│   └── roi_prediction
+│       ├── first_scaler.pkl
+│       ├── first_xgb_model.pkl
+│       ├── scaler_1_2.pkl
+│       └── xgb_model_1_2.pkl
+│
+├── notebooks
+│   ├── business_labels.ipynb
+│   └── ROI>=1.2.ipynb
+│
+├── venv
+│
+├── .gitignore
+├── README_STRUCTURE.md
+├── readme.md
+└── requirements.txt
+```
 
 ## ⚙️ Installation & Setup
 
