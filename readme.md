@@ -104,6 +104,20 @@ The ROI objective is integrated into a Streamlit application for non-technical m
     │   ├── Technical_Documentation.pdf
     │
     ├── images
+    |   ├── Downloaded_predictions.png
+    |   ├── Feature_Importances_Comparison.png
+    |   ├── High_ROI_Keywords_Excl_Labelmaster.png
+    |   |── Keyword_Count_by_Business_Label.png
+    |   ├── Labelmaster_Revenue_Per_Period.png
+    |   ├── Org_vs_Paid_scores(Distribution).png
+    |   ├── Organic_vs_Paid_Score_Strategy_Map.png
+    |   ├── ROI_Distribution_with_Thresholds.png
+    |   ├── ROI_Trends_Top_Keywords_Periods8to18.png
+    |   |── Streamlit_app_default_page.png
+    |   ├── op_10_Keywords_by_ROI.png
+    |   ├── Top_Revenue_Keyword_Per_Period_Excl_Labelmaster.png
+    |   ├── Uploading_a_file_and_making_predictions.png
+    |   ├── Zero_Revenue_Keywords_Paid_Cost_Top10.png
     │
     ├── models
     │   ├── roi_prediction
