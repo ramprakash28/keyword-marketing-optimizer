@@ -100,11 +100,10 @@ STREAMLIT
 │   │   ├── synthetic_keywords_test_set_1.csv  
 │
 ├── images
-|   ├── Bulk Predction.png
+│   ├── Bulk Predction.png
 │   ├── downloaded_predictions.png
 │   ├── Keyword_prediction_based_on_cost_rev_period.png
 │   ├── Streamlit app default page.png
-| 
 │
 ├── models
 │   └── roi_prediction
@@ -114,8 +113,8 @@ STREAMLIT
 │       └── xgb_model_1_2.pkl
 │
 ├── notebooks
-│   ├── notebooks/final.py
-│   └── notebooks/roi_2.py
+│   ├── final.py
+│   └── roi_2.py
 │
 ├── venv
 │
