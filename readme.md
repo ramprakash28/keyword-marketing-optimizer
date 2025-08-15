@@ -1,3 +1,5 @@
+## 🛡️ Disclaimer
+This repository is for academic and demonstration purposes only. All data, labels, and visuals have been anonymized or synthetically generated to comply with confidentiality agreements. No proprietary information from the client is included.
 
 ## Keyword Marketing Optimization Platform
 
