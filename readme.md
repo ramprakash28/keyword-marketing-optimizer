@@ -2,7 +2,7 @@
 ## Keyword Marketing Optimization Platform
 
 **Course:** CSP 572 – Data Science Practicum (Spring 2025)  
-**Client:** LabelMaster  
+**Client:** Confidential B2B Logistics Company  
 **Advisor:** Dr. Yong Zheng  
 
 **Contributors:**  
@@ -42,14 +42,14 @@ The ROI objective is integrated into a Streamlit application for non-technical m
 
 ---
 
-### Data Sources
-- Google Ads
-- Bing Paid Search
-- SEO platforms
+### Data Sources (Simulated)
+- Google data 
+- Bing data
+- Organic traffic scores
 - Sales transactions
-- GA4 order medium data
+- Session-level engagement data
 
-*Data spans Feb 2022 – Jan 2025 (bi-monthly). Raw datasets are not included for confidentiality. Cleaned and labeled sample datasets are provided for demonstration.*
+*All datasets used in this repository are synthetic and do not reflect any proprietary or confidential information.*
 
 ---
 
@@ -62,7 +62,7 @@ The ROI objective is integrated into a Streamlit application for non-technical m
 - KMeans clustering for tier segmentation
 
 **Modeling:**
-- ROI Prediction: Logistic Regression, Random Forest, Gradient Boosting,     XGBoost
+- ROI Prediction: Logistic Regression, Random Forest, Gradient Boosting, XGBoost
 - Business Classification: Random Forest
 - Reinforcement Learning: Deep Q-Network (DQN) for dynamic budget reallocation
 
@@ -106,20 +106,6 @@ STREAMLIT
 │   └── Technical_Documentation.pdf
 │
 ├── images
-│   ├── Downloaded_predictions.png
-│   ├── Feature_Importances_Comparison.png
-│   ├── High_ROI_Keywords_Excl_Labelmaster.png
-│   ├── Keyword_Count_by_Business_Label.png
-│   ├── Labelmaster_Revenue_Per_Period.png
-│   ├── Org_vs_Paid_scores(Distribution).png
-│   ├── Organic_vs_Paid_Score_Strategy_Map.png
-│   ├── ROI_Distribution_with_Thresholds.png
-│   ├── ROI_Trends_Top_Keywords_Periods8to18.png
-│   ├── Streamlit_app_default_page.png
-│   ├── op_10_Keywords_by_ROI.png
-│   ├── Top_Revenue_Keyword_Per_Period_Excl_Labelmaster.png
-│   ├── Uploading_a_file_and_making_predictions.png
-│   └── Zero_Revenue_Keywords_Paid_Cost_Top10.png
 │
 ├── models
 │   └── roi_prediction
@@ -193,7 +179,7 @@ The app will launch in your default browser at: [http://localhost:8501](http://l
 
 **ROI Prediction Tab**
 - Upload a CSV with keyword metrics or enter data manually.
-- Download predictions.
+- View predictions and download results.
 
 ---
 
@@ -224,4 +210,7 @@ The app will launch in your default browser at: [http://localhost:8501](http://l
 ## 📜 License
 This project is for academic and demonstration purposes only.  
 All sensitive datasets are excluded to comply with confidentiality agreements.
+
+## 🛡️ Disclaimer
+This repository is for academic and demonstration purposes only. All data, labels, and visuals have been anonymized or synthetically generated to comply with confidentiality agreements. No proprietary information from the client is included.
 
