@@ -84,28 +84,27 @@ STREAMLIT
 │
 ├── data
 │   ├── business_labels
-│   │   ├── all_keywords_with_labels.csv
-│   │   ├── keywords_Strong_in_both_cut_reduce_paid.csv
-│   │   ├── keywords_Strong_in_organic,_not_paid_in.csv
-│   │   ├── keywords_Strong_in_paid,_not_organic_in.csv
-│   │   ├── keywords_Weak_moderate_-_deprioritize_b.csv
-│   │   ├── keywords_Weak_near_thresholds_-_small_o.csv
-│   │   ├── keywords_Weak_very_low_-_drop_or_archiv.csv
+│   │   ├── synthetic_all_keywords_with_labels.csv
+│   │   ├── synthetic_keywords_Strong_in_both_cut_reduce_paid.csv
+│   │   ├── synthetic_keywords_Strong_in_organic,_not_paid_in.csv
+│   │   ├── synthetic_keywords_Strong_in_paid,_not_organic_in.csv
+│   │   ├── synthetic_keywords_Weak_moderate_-_deprioritize_b.csv
+│   │   ├── synthetic_keywords_Weak_near_thresholds_-_small_o.csv
+│   │   ├── synthetic_keywords_Weak_very_low_-_drop_or_archiv.csv
 │   ├── expected output
-│   │   ├── predictions_for_1.2.csv
-│   │   └── predictions_for_1.5.csv
+│   │   ├── sample_synthetic_predictions_1.csv
+│   │   └── sample_synthetic_predictions_2.csv
 │   ├── test_sets
-│   │   ├── keywords_test_set_1.csv
-│   │   ├── keywords_test_set_2.csv
-│   │   ├── keywords_test_set_3.csv
-│   │   ├── keywords_test_set_4.csv
-│   │   └── keywords_test_set_5.csv
-│
-├── docs
-│   ├── LM IIT Project PPT.pdf
-│   └── Technical_Documentation.pdf
+│   │   ├── synthetic_keywords_test_set_1.csv
+│   │   ├── synthetic_keywords_test_set_1.csv
+│   │   ├── synthetic_keywords_test_set_1.csv  
 │
 ├── images
+|   ├── Bulk Predction.png
+│   ├── downloaded_predictions.png
+│   ├── Keyword_prediction_based_on_cost_rev_period.png
+│   ├── Streamlit app default page.png
+| 
 │
 ├── models
 │   └── roi_prediction
@@ -115,8 +114,8 @@ STREAMLIT
 │       └── xgb_model_1_2.pkl
 │
 ├── notebooks
-│   ├── business_labels.ipynb
-│   └── ROI>=1.2.ipynb
+│   ├── notebooks/final.py
+│   └── notebooks/roi_2.py
 │
 ├── venv
 │
